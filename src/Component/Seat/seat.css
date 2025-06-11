@@ -1,0 +1,82 @@
+.seatdiv{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:10px;
+    background-color:#272775
+}
+
+.book-btn{
+     background-color:green;
+     border: none;
+     height: 65px;
+     width: 45px;
+     margin: 5px;
+     cursor: not-allowed;
+     font-weight:bold;
+     border-radius:12px;
+     font-size: small;
+}
+
+.avail-btn{
+     background-color:gray;
+     border: none;
+     height: 65px;
+     width: 45px;
+     margin: 5px;
+     cursor: not-allowed;
+     font-weight:bold;
+     border-radius:12px;
+     font-size:small;
+}
+
+.seatdiv1{
+    background-color:#2e2e4a;
+     width: 500px;
+     padding:16px;
+      display: flex;
+    justify-content: space-evenly;
+     height:1074px;
+    border-radius:70px;
+     border:5px solid #baadad;
+}
+
+.seatdiv2{
+     width: 200px;
+      display: flex;
+       flex-wrap: wrap;
+        justify-content: space-evenly
+}
+
+.seatbt1{
+       border: none;
+       height: 100px;
+       width: 65px;
+       margin: 5px;
+       cursor: not-allowed;
+       font-weight:bold;
+       border-radius:12px
+}
+
+@media (max-width:600px) and (min-width:300px){
+     .seatbt1{
+    border: none;
+    height: 65px;
+    width: 45px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+     }
+
+     .seatdiv1 {
+    background-color: #2e2e4a;
+    width: 270px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 1074px;
+    border-radius: 70px;
+    border: 5px solid #baadad;
+}
+
+}

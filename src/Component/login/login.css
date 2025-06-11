@@ -1,0 +1,80 @@
+.loginform{
+    text-align: center;
+    padding-top: 117px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #3c3c57;
+    height: 700px;
+    color: white;
+}
+
+.loginform form{
+    margin-top: 40px;
+    width: 500px;
+}
+
+.loginform form input{
+    font-size: large;
+    width: 327px;
+    height: 42px;
+    background-color: #9f9fac;
+}
+
+.loginform form input::placeholder{
+    color: #3c3c57 ;
+}
+
+.loginform form button{
+     height: 40px;
+    width: 115px;
+    background-color: white;
+    color: #3c3c57;
+    font-size: large;
+}
+
+.loginform form .link{
+    text-decoration: none;
+}
+
+@media (max-width:600px) and (min-width:300px) {
+    .loginform{
+    text-align: center;
+    width: 500px;
+    padding-top: 117px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #3c3c57;
+    height: 700px;
+    color: white;
+}
+
+.loginform form input {
+    font-size:larger;
+    width: 379px;
+    height: 63px;
+    background-color: #9f9fac;
+}
+
+.hinput{
+     margin-top: 33px;
+}
+
+.loginform form input::placeholder{
+    font-size: larger;
+}
+
+.loginh{
+    font-size: 50px;
+}
+
+.loginform form button {
+    height: 60px;
+    width: 159px;
+    background-color: white;
+    color: #3c3c57;
+    font-size: 25px;
+}
+
+}

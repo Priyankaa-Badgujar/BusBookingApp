@@ -1,0 +1,50 @@
+.bookclass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 43px;
+    height: 800px;
+    font-family: emoji;
+    background-color:  #3c3c57;
+}
+
+.bookform{
+    border: 2px solid black;
+    padding: 47px;
+    background-color: white;
+}
+.bookform input{
+        font-weight: bold;
+    font-size: large;
+    width: 300px;
+}
+.bookform label{
+    font-size: large;
+}
+
+.bookform button{
+    height: 40px;
+    width: 115px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+
+@media (max-width:600px) and (min-width:300px){
+    .bookform{
+        width: 300px;
+    }
+    .bookform input{
+        width: 220px;
+    }
+    
+.bookform button{
+    height: 40px;
+    width: 95px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+}
